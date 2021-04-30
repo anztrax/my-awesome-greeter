@@ -4,3 +4,5 @@ tslint.json
 .prettierrc
 .idea
 yarn-error.log
+jest.config.json
+README.md
