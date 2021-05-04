@@ -1,6 +1,6 @@
 {
   "name": "try-web-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "description": "A nice greeter",
   "main": "lib/index.js",
@@ -38,7 +38,7 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "test": "jest --config ./jest.config.json",
     "bump-version": "npm version patch",
-    "do-publish" : "npm publish",
+    "do-publish": "npm publish",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
