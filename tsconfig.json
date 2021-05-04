@@ -4,8 +4,12 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./lib",
-    "strict": true
+    "jsx": "preserve",
+    "strict": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "react"],
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": ["./src/**/*.ts*"],
+  "exclude": ["node_modules","**/__tests__/*","src/**/*.spec.ts*", "src/**/*.test.ts*"],
 }
