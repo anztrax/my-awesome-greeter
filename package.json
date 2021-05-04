@@ -1,6 +1,6 @@
 {
   "name": "try-web-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "description": "A nice greeter",
   "main": "lib/index.js",
