@@ -30,7 +30,7 @@ const DashboardLayout: React.FunctionComponent<PropTypes> = (props: PropTypes) =
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.up('md'));
-  const classes = useStyles(sidebarWidth);
+  const classes = useStyles(sidebarWidth)();
   const mainContainerInlineStyle = {
     marginLeft: !isMobile ? 0 : sidebarWidth,
   };
