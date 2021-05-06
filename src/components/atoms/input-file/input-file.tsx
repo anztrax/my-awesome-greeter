@@ -74,9 +74,16 @@ const Input: React.FunctionComponent<PropTypes> = ({
           >
             {label}
           </Button>
-          {
-            !preview && value && (<div style={{ marginLeft: 10, fontSize: 14 }}>{ previewName(multiple) }</div>)
-          }
+          {!preview && value && (
+            <div
+              style={{
+                marginLeft: 10,
+                fontSize: 14,
+              }}
+            >
+              { previewName(multiple) }
+            </div>
+          )}
         </div>
         <input
           id={id || 'input-file'}

@@ -1,7 +1,7 @@
 import React from 'react';
 import Loader from '../loader';
 
-const AsyncComponent = (importComponent: any): any => {
+const asyncComponent = (importComponent: any): any => {
   class AsyncComponent extends React.Component {
     constructor(props:any) {
       super(props);
@@ -27,6 +27,6 @@ const AsyncComponent = (importComponent: any): any => {
   }
 
   return AsyncComponent;
-}
+};
 
-export default AsyncComponent;
+export default asyncComponent;

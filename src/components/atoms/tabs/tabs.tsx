@@ -53,7 +53,7 @@ const TabsComponent: React.FunctionComponent<PropTypes> = ({
         {
           options.map((option, key) => (
             <CustomTab
-              key={`custom-tab-component-${key}`}
+              key={`custom-tab-component-${option.value}`}
               label={option.label}
               value={key}
             />

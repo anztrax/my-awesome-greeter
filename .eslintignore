@@ -1,0 +1,8 @@
+# kudos:
+# https://github.com/nuxt/typescript/issues/191
+# https://stackoverflow.com/questions/55989643/vscode-eslint-complaining-parsing-error-only-declares-and-type-imports-are-allo
+#
+# [NOTE] : in custom.d.ts is eslint error not typescript error
+#
+/**/custom.d.ts
+/**/theme/custom-theme.d.ts
