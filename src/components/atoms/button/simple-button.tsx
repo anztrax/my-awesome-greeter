@@ -4,7 +4,7 @@ import { Theme } from '@material-ui/core/styles/createMuiTheme';
 import Button from '@material-ui/core/Button';
 import { ButtonBaseProps } from '@material-ui/core/ButtonBase';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import { INode } from 'src/types/common';
+import { INode } from "../../../types/common";
 
 export type IColor = 'primary' |
   'primary-darkest' |

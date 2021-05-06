@@ -4,7 +4,7 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Divider from '@material-ui/core/Divider';
 import { makeStyles } from '@material-ui/core/styles';
-import { INode } from 'src/types/common';
+import { INode } from '../../../types/common';
 
 interface PropTypes {
   title?: string | null;

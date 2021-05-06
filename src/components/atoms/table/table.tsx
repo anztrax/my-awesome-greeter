@@ -22,7 +22,7 @@ import LastPageIcon from '@material-ui/icons/LastPage';
 import Skeleton from '@material-ui/lab/Skeleton';
 import Checkbox from '@material-ui/core/Checkbox';
 import { TablePaginationActionsProps } from '@material-ui/core/TablePagination/TablePaginationActions';
-import { INode } from 'src/types/common';
+import { INode } from '../../../types/common';
 
 export interface IColumnPropTypes {
   id: string | number;

@@ -2,7 +2,7 @@ import React from 'react';
 import Divider from '@material-ui/core/Divider';
 import Dialog, { DialogProps } from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import { INode } from 'src/types/common';
+import { INode } from '../../../types/common';
 
 interface PropTypes extends DialogProps{
   component?: INode;

@@ -3,8 +3,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import withStyles from '@material-ui/core/styles/withStyles';
 import { Theme } from '@material-ui/core/styles/MuiThemeProvider';
-// OTHER
-import { INode } from 'src/types/common';
+import {INode} from "../../../types/common";
 
 interface PropTypes {
   options: {
