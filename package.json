@@ -44,7 +44,7 @@
     "eslint-plugin-react-hooks": "^1.7.0"
   },
   "scripts": {
-    "build": "tsc && cp -R src/types lib/types",
+    "build": "rm -rf lib && tsc && cp -R src/types lib/types",
     "lint": "eslint src/**/*.ts src/**/*.tsx",
     "format": "prettier --write \"src/**/*.ts\"",
     "test": "jest --config ./jest.config.json",
