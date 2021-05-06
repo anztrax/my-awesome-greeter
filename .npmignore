@@ -6,3 +6,5 @@ tslint.json
 yarn-error.log
 jest.config.json
 README.md
+.eslintignore
+.eslintrc.js
