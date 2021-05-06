@@ -17,7 +17,7 @@ interface PropTypes {
   children?: React.ReactChild | React.ReactChild[] | Element | Element[];
   renderSidebar: (props: RenderElementProps) => React.ReactElement;
   renderNavbar: () => React.ReactElement;
-  sidebarWidth: number,
+  sidebarWidth?: number,
 }
 
 const DashboardLayout: React.FunctionComponent<PropTypes> = (props: PropTypes) => {
